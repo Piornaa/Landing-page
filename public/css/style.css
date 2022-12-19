@@ -1,0 +1,184 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+h2, h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 60px;
+    text-shadow: 0 0 40px #000;
+}
+
+p {
+    margin: 40px 0;
+    color: rgb(63, 63, 63);
+}
+
+.a-more {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    color: rgb(63, 63, 63);
+    margin-bottom: 0;
+}
+
+/*///////////
+CONTENT
+//////////*/
+
+.content {
+    height: 100vh;
+    background-image: url(/images/11.jpg);
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+
+.content-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25px 0px 25px;
+    vertical-align: middle;
+}
+
+.content-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 800;
+}
+    
+span {
+    color: hsl(50, 100%, 50%);
+}
+
+.link {
+    padding-top: 8px;
+}
+
+.link a {
+    margin-left: 25px;
+}
+
+.link-contact {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.content-text {
+    color: #fff;
+    margin-top: 100px;
+}
+
+.content-text img {
+    margin-top: 8px;
+    width: 70px;
+}
+
+/*///////////
+INFO
+//////////*/
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 600px;
+}
+
+.about-img {
+    background-image: url(/images/a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.project-img {
+    background-image: url(/images/b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.destinations-img {
+    background-image: url(/images/c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-cont {
+    max-width: 65%;
+    margin: auto;
+}
+
+/*///////////
+BREAK
+//////////*/
+
+.break {
+    height: 500px;
+    background-image: url(/images/2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px;
+}
+
+.break-text {
+    width: 30%;
+}
+
+.break a {
+    color: #fff;
+}
+
+/*///////////
+FRIENDS
+//////////*/
+
+.friend {
+    text-align: center;
+    padding: 80px 150px;
+    height: 600px;
+}
+
+.friend h3 {
+    color: rgb(123, 123, 123);
+}
+
+.friends {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+
+.friend-from {
+    margin-top: 4px;
+    color: rgb(135, 135, 135);
+    font-size: 12px;
+}
+
+.friends img {
+    border-radius: 100%;
+    margin-top: 40px;
+    width: 100px;
+}
