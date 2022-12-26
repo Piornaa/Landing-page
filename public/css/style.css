@@ -20,7 +20,7 @@ h2 {
     text-shadow: 0 0 40px #000;
 }
 
-p {
+.p-margin {
     margin: 40px 0;
     color: rgb(63, 63, 63);
 }
@@ -56,13 +56,14 @@ CONTENT
 .content-nav a {
     color: #fff;
     text-decoration: none;
+    text-shadow: 0 0 10px #000;
 }
 
 .logo {
     font-size: 30px;
     font-weight: 800;
 }
-    
+
 span {
     color: hsl(50, 100%, 50%);
 }
@@ -79,6 +80,10 @@ span {
     font-family: 'Fraunces', serif;
     font-weight: 600;
     margin-left: 8px;
+    background-color: rgba(0, 0, 0, 0.186);
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid #fff;
 }
 
 .content-text {
@@ -181,4 +186,93 @@ FRIENDS
     border-radius: 100%;
     margin-top: 40px;
     width: 100px;
+}
+
+/*///////////
+FORM
+//////////*/
+
+.form {
+    height: 600px;
+    /*background-color: rgb(255, 225, 27);*/
+    background-image: url(/images/33.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-color {
+    background-color: hsla(50, 100%, 50%, 0.764);    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 600px;
+}
+
+.form-form h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.form-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 400px;
+    color: #fff;
+}
+
+.form-form {
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    max-width: 500px;
+    color: rgb(63, 63, 63);
+}
+
+.form-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-form form input {
+    margin-bottom: 10px;
+    padding: 20px 8px 8px 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(125, 125, 125);
+}
+
+.form-form form button {
+    margin-top: 10px;
+    background-color: rgb(63, 63, 63);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+
+/*///////////
+FOOTER
+//////////*/
+
+footer {
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 25px 25px;
+    font-size: 12px;
+}
+
+.footer-link a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.footer-social img {
+    width: 16px;
+    margin-left: 10px;
 }

@@ -1,0 +1,23 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing page - Travellen",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piornaa/Landing-page.git"
+  },
+  "author": "Gonzalo Piorno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Piornaa/Landing-page/issues"
+  },
+  "homepage": "https://github.com/Piornaa/Landing-page#readme",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.18.2"
+  }
+}
