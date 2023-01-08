@@ -1,0 +1,36 @@
+
+.link-contact:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    transition: 1s;
+    text-shadow: none;
+}
+
+.link-a:hover {
+    padding: 4px;
+    font-weight: 500;
+    text-shadow: 0 2px 8px #000;
+    box-shadow: 0 2px 0 #fff;
+    transition: 1s;
+}
+
+.a-effect:hover {
+    opacity: 1;
+    box-shadow: 0 3px 0 hsl(50, 100%, 50%);
+    transition: 1s;
+}
+
+.form-form input:focus {
+    background-color: hsla(50, 100%, 50%, 0.764);
+    color: rgb(63, 63, 63);
+    font-weight: 600;
+    border-bottom: 1px solid #fff;
+    transition: .5s;
+}
+
+.form-form button:hover {
+    color: rgb(63, 63, 63);
+    background-color: hsla(50, 100%, 50%, 0.764);    
+    transition: 1s;
+    border: none;
+}

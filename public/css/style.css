@@ -30,7 +30,8 @@ h2 {
     color: #000;
     font-family: 'Fraunces', serif;
     font-weight: 700;
-    color: rgb(63, 63, 63);
+    color: #000;
+    opacity: .6;
     margin-bottom: 0;
 }
 
@@ -83,7 +84,7 @@ span {
     background-color: rgba(0, 0, 0, 0.186);
     padding: 8px;
     border-radius: 2px;
-    border: 1px solid #fff;
+    border: 1px solid rgba(255, 255, 255, 0.877);
 }
 
 .content-text {
@@ -153,6 +154,8 @@ BREAK
 
 .break a {
     color: #fff;
+    text-shadow: 0 0 40px #000;
+    opacity: 1;
 }
 
 /*///////////
@@ -249,7 +252,9 @@ FORM
     background-color: rgb(63, 63, 63);
     color: #fff;
     font-weight: 600;
-    padding: 10px 15px;
+    padding: 15px 15px;
+    border: none;
+    cursor: pointer;
 }
 
 /*///////////
@@ -265,14 +270,19 @@ footer {
     font-size: 12px;
 }
 
-.footer-link a {
+.footer-link {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-link-web a {
     color: #fff;
     text-decoration: none;
     margin-left: 25px;
     font-size: 14px;
 }
 
-.footer-social img {
+.footer-link-social img {
     width: 16px;
     margin-left: 10px;
 }

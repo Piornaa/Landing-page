@@ -6,14 +6,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>travellen</title>
+    <title>Travellen</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/effect.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="website icon" type="png" href="images/favicon.png">
 </head>
 
 <body>
@@ -24,9 +28,9 @@
                 <a href="">trav<span>ellen</span></a>
             </div>
             <div class="link">
-                <a href="">About</a>
-                <a href="">Project</a>
-                <a href="">Destinations</a>
+                <a class="link-a" href="">About</a>
+                <a class="link-a" href="">Project</a>
+                <a class="link-a" href="">Destinations</a>
                 <a class="link-contact" href="">CONTACT</a>
             </div>
         </nav>
@@ -44,7 +48,7 @@
                 <p class="p-margin">I'm Rob, passionate about the world. In 2015 we started traveling with Ellen, and since then we have known many countries, different cultures and lived countless experiences.
 
                 We invite you to travel with us and join us on this blog and on oursocial networks.</p>
-                <a class="a-more" href="">LEARN MORE</a>
+                <a class="a-more a-effect" href="">LEARN MORE</a>
             </div>
         </div>
 
@@ -62,7 +66,7 @@
                 <p class="p-margin">On March 10, 2021 we began with the dream of touring all of America.
 
                 This travel plan was a big change in our lifestyle. Our objective is to know and discover all the corners of our beautiful continent.</p>
-                <a class="a-more" href="">LEARN MORE</a>
+                <a class="a-more a-effect" href="">LEARN MORE</a>
             </div>
         </div>
     </div>
@@ -72,7 +76,7 @@
             <div class="text-cont">
                 <h3>Where we went?</h3>
                 <p class="p-margin">Together we have traveled through 9 countries and more than 30 cities, in 2 different continents. And as you can imagine we are going to continue adding countries to our list.</p>
-                <a class="a-more" href="">LEARN MORE</a>
+                <a class="a-more a-effect" href="">LEARN MORE</a>
             </div>
         </div>
         
@@ -83,7 +87,7 @@
     <div class="break">
         <div class="break-text">
             <h2>VISIT OUR <br>STORE</h2>
-            <a class="a-more" href="">SEE MORE!</a>
+            <a class="a-more a-effect" href="">SEE MORE!</a>
         </div>
     </div>
 
@@ -124,9 +128,9 @@
             <div class="form-form">
                 <h3>Send Me A Massage</h3>
                 <form action="">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <input type="text" placeholder="Message" required>
+                    <input type="text" placeholder="Your Name" required autocomplete="off">
+                    <input type="email" placeholder="Your Email" required autocomplete="off">
+                    <input type="text" placeholder="Message" required autocomplete="off">
                     <button type="submit">SEND MESSAGE</button>
     
                 </form>
@@ -135,26 +139,33 @@
     </div>
 
     <footer>
+
         <p>All rights Reserved By <strong>travellen</strong></p>
+
         <div class="footer-link">
-            <a href="">About</a>
-            <a href="">Project</a>
-            <a href="">Destinations</a>
+            <div class="footer-link-web">
+                <a href="">About</a>
+                <a href="">Project</a>
+                <a href="">Destinations</a>
+            </div>
+            <p>|</p>
+            <div class="footer-link-social">
+                <a href="">
+                    <img src="images/icon-facebook.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/icon-instagram.png" alt="">
+                </a>
+                <a href="">
+                    <img src="images/icon-twitter.png" alt="">
+                </a>
+            </div>
         </div>
-        <div class="footer-social">
-            <a href="">
-                <img src="images/icon-facebook.png" alt="">
-            </a>
-            <a href="">
-                <img src="images/icon-instagram.png" alt="">
-            </a>
-            <a href="">
-                <img src="images/icon-twitter.png" alt="">
-            </a>
-        </div>
+
     </footer>
 
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="javascript/index.js"></script>
 
 
 </body>
