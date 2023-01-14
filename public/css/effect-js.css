@@ -1,0 +1,14 @@
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.841);
+    padding: 15px 25px;
+    transition: 1.5s;
+}
+
+.nav-text {
+    padding-top: 161px;
+}

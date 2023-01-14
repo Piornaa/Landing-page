@@ -10,6 +10,7 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/effect.css">
+    <link rel="stylesheet" href="css/effect-js.css">
     <link rel="stylesheet" href="css/responsive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,20 +28,26 @@
             <div class="logo">
                 <a href="">trav<span>ellen</span></a>
             </div>
+
+            <div class="menu">
+                <img src="images/menu.png" alt="">
+            </div>
+
             <div class="link">
-                <a class="link-a" href="">About</a>
-                <a class="link-a" href="">Project</a>
-                <a class="link-a" href="">Destinations</a>
-                <a class="link-contact" href="">CONTACT</a>
+                <a class="link-a" href="#about">About</a>
+                <a class="link-a" href="#proyect">Project</a>
+                <a class="link-a" href="#destination">Destinations</a>
+                <a class="link-contact" href="#contact">CONTACT</a>
             </div>
         </nav>
 
         <div class="content-text">
             <h2>JOIN ME ON THIS JOURNEY</h2>
-            <img src="images/flecha.png" alt="">
+            <img class="move" src="images/flecha.png" alt="">
         </div>
     </div>
 
+    <a name="about" id="about"></a>
     <div class="info about">
         <div class="text">
             <div class="text-cont">
@@ -52,15 +59,14 @@
             </div>
         </div>
 
-        <div class="about-img">
+        <div class="about-img info-img">
         </div>
     </div>
 
+    <a name="proyect" id="proyect"></a>
     <div class="info project">
-        <div class="project-img">
-        </div>
 
-        <div class="text">
+        <div class="text text-grid1">
             <div class="text-cont">
                 <h3>From Alaska to Ushuaia</h3>
                 <p class="p-margin">On March 10, 2021 we began with the dream of touring all of America.
@@ -69,8 +75,12 @@
                 <a class="a-more a-effect" href="">LEARN MORE</a>
             </div>
         </div>
+
+        <div class="project-img text-grid2 info-img">
+        </div>
     </div>
 
+    <a name="destination" id="destination"></a>
     <div class="info destinations">
         <div class="text">
             <div class="text-cont">
@@ -80,13 +90,13 @@
             </div>
         </div>
         
-        <div class="destinations-img">
+        <div class="destinations-img info-img">
         </div>
     </div>
 
     <div class="break">
         <div class="break-text">
-            <h2>VISIT OUR <br>STORE</h2>
+            <h2 class="break-h2">VISIT OUR <br>STORE</h2>
             <a class="a-more a-effect" href="">SEE MORE!</a>
         </div>
     </div>
@@ -119,6 +129,7 @@
 
     </div>
 
+    <a name="contact" id="contact"></a>
     <div class="form">
         <div class="form-color">
             <div class="form-text">
@@ -144,9 +155,9 @@
 
         <div class="footer-link">
             <div class="footer-link-web">
-                <a href="">About</a>
-                <a href="">Project</a>
-                <a href="">Destinations</a>
+                <a href="#about">About</a>
+                <a href="#proyect">Project</a>
+                <a href="#destination">Destinations</a>
             </div>
             <p>|</p>
             <div class="footer-link-social">
@@ -165,7 +176,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="javascript/index.js"></script>
+    <script src="javascripts/index.js"></script>
 
 
 </body>
