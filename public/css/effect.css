@@ -67,3 +67,8 @@
 html {
     scroll-behavior: smooth;
 }
+
+.menu:hover {
+    background-color: rgba(0, 0, 0, 0.655);
+    transition: 1s;
+}

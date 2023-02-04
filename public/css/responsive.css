@@ -1,5 +1,5 @@
 
-@media (max-width:500px) {
+@media (max-width:580px) {
     
 h2, h3 {
     font-size: 24px;
@@ -13,13 +13,42 @@ h2, h3 {
     box-shadow: 0 3px 0 hsl(50, 100%, 50%);
 }
 
+.menu {
+    display: flex;
+    border-radius: 8px;
+}
+
 .link {
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 100%;
-    height: 100vh;
+    position: absolute;
+    top: 70px;
+    left: 25px;
+    right: 25px;
+    padding: 25px 45px 35px 20px;
     background-color: rgba(0, 0, 0, 0.841);
+    border-radius: 8px;
+    z-index: 100;
+    transition: .5s;
+    opacity: 1;
+}
+
+.link-show {
+    top: -280px;
+    transition: 1s;
+    opacity: 0;
+}
+
+.link-contact {
+    border: 2px solid hsl(50, 100%, 50%);
+}
+
+.link a {
+    font-size: 20px;
+}
+
+.link-responsive {
+    margin-top: 20px;
 }
 
 .info {
@@ -75,6 +104,41 @@ h2, h3 {
     padding: 0 20px;
 }
 
+.form {
+    height: auto;
+}
 
+.form-color {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+footer p {
+    margin-top: 25px;
+}
+
+.footer-link {
+    flex-direction: column-reverse;
+}
+
+.footer-link p {
+    display: none;
+}
+
+.footer-link-web a {
+    margin: 0 8px;
+}
+
+.footer-link-social img {
+    margin: 0 8px;
+}
 
 }
